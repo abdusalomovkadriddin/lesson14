@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #242a43;
+    color: white;
+}
+
+.qadriddin1-page {
+    width: 100%;
+    overflow: hidden;
+}
+
+.qadriddin1-header {
+    max-width: 1200px;
+    margin: auto;
+    height: 75px;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     box-shadow: 1px 1px 3px;
+}
+
+.qadriddin1-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.qadriddin1-menu {
+    display: flex;
+    gap: 25px;
+
+}
+
+.qadriddin1-menu a,
+.qadriddin1-footer a {
+    color: #b6bdd0;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.qadriddin1-menu a:hover,
+.qadriddin1-footer a:hover {
+    color: #00a9ed;
+}
+
+.qadriddin1-nav-btn,
+.qadriddin1-btn {
+    background: #00a9ed;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.qadriddin1-toggle {
+    display: none;
+    background: none;
+    border: 0;
+    color: white;
+    font-size: 25px;
+}
+
+.qadriddin1-hero {
+    padding: 70px 8%;
+    min-height: 480px;
+    background: #242a43;
+    position: relative;
+}
+
+.qadriddin1-hero-content {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qadriddin1-hero-text {
+    width: 50%;
+}
+
+.qadriddin1-hero-text span {
+    color: #00a9ed;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.qadriddin1-hero-text h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.qadriddin1-hero-text p {
+    color: #aeb4c7;
+    line-height: 1.8;
+    font-size: 13px;
+    max-width: 400px;
+    margin-bottom: 25px;
+}
+
+
+.qadriddin1-hero-picture img {
+    width: 230px;
+    height: 350px;
+    border-radius: 25px;
+  
+}
+.qadriddin1-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.qadriddin1-heading h2 {
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.qadriddin1-heading p {
+    color: #aeb4c7;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.qadriddin1-services {
+    max-width: 1000px;
+    margin: auto;
+    padding: 65px 30px;
+}
+
+.qadriddin1-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.qadriddin1-service {
+    border: 1px solid #505872;
+    padding: 20px;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.qadriddin1-service:hover {
+    border-color: #00a9ed;
+    transform: translateY(-4px);
+}
+
+.qadriddin1-service span {
+    color: #00a9ed;
+    font-size: 13px;
+}
+
+.qadriddin1-service h3 {
+    font-size: 14px;
+    margin: 12px 0;
+}
+
+.qadriddin1-service p {
+    color: #aeb4c7;
+    font-size: 11px;
+    line-height: 1.6;
+}
+.qadriddin1-reviews {
+    padding: 55px 20px;
+}
+
+.qadriddin1-review-card {
+    background: white;
+    color: #242a43;
+    max-width: 480px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.qadriddin1-review-card img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.qadriddin1-review-card h3 {
+    font-size: 14px;
+}
+
+.qadriddin1-review-card span {
+    display: block;
+    color: #f4b400;
+    margin: 12px;
+}
+
+.qadriddin1-review-card p {
+    color: #7b8192;
+    font-size: 12px;
+    line-height: 1.7;
+}
+.qadriddin1-download {
+    padding: 55px 20px;
+}
+.qadriddin1-download-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.qadriddin1-store {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 18px;
+    min-width: 150px;
+    background: #151d33;
+    border: 1px solid #4c5570;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+.qadriddin1-store img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    filter: invert(1);
+}
+.qadriddin1-store small,
+.qadriddin1-store b {
+    display: block;
+}
+
+.qadriddin1-store small {
+    font-size: 9px;
+    color: #aeb4c7;
+}
+
+.qadriddin1-store b {
+    font-size: 12px;
+    margin-top: 3px;
+}
+.qadriddin1-pricing {
+    padding: 60px 8%;
+}
+
+.qadriddin1-pricing-grid {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.qadriddin1-price {
+    background: white;
+    color: #242a43;
+    padding: 25px;
+    border-radius: 3px;
+}
+.qadriddin1-price > span {
+    color: #00a9ed;
+    font-size: 12px;
+    font-weight: bold;
+}
+.qadriddin1-price h3 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+.qadriddin1-price h3 small {
+    font-size: 11px;
+    color: #9299ab;
+}
+.qadriddin1-price p {
+    font-size: 12px;
+    color: #9299ab;
+}
+
+.qadriddin1-price ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.qadriddin1-price li {
+    font-size: 12px;
+    color: #60697d;
+    padding: 7px 0;
+}
+
+.qadriddin1-price > a {
+    display: block;
+    background: #00a9ed;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.qadriddin1-world {
+    max-width: 1100px;
+    margin: auto;
+    padding: 65px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.qadriddin1-world-text {
+    width: 45%;
+}
+.qadriddin1-world-text h2 {
+    font-size: 27px;
+    line-height: 1.4;
+    margin-bottom: 18px;
+}
+.qadriddin1-world-text p {
+    color: #aeb4c7;
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.qadriddin1-world-picture {
+    width: 50%;
+}
+
+.qadriddin1-world-picture img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.qadriddin1-contact {
+    background: white;
+    color: #242a43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+    gap: 35px;
+}
+
+.qadriddin1-contact-picture {
+    width: 35%;
+}
+
+.qadriddin1-contact-picture img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.qadriddin1-contact-content {
+    width: 45%;
+}
+
+.qadriddin1-contact-content h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.qadriddin1-contact-content p {
+    color: #888;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.qadriddin1-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.qadriddin1-form input,
+.qadriddin1-form textarea {
+    padding: 13px;
+    background: #f5f6f9;
+    border: 1px solid #e5e7ed;
+    outline: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: inherit;
+}
+.qadriddin1-form textarea {
+    height: 75px;
+    resize: vertical;
+}
+
+.qadriddin1-form button {
+    padding: 13px;
+    background: #00a9ed;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* FOOTER */
+
+.qadriddin1-footer {
+    padding: 50px 8% 20px;
+    background: #20263d;
+}
+
+.qadriddin1-footer-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.qadriddin1-footer-grid h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.qadriddin1-footer-grid p,
+.qadriddin1-footer-grid a {
+    display: block;
+    color: #aeb4c7;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 2.5;
+}
+
+.qadriddin1-copyright {
+    border-top: 1px solid #424960;
+    margin-top: 35px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: #aeb4c7;
+}
+@media(max-width: 768px) {
+    .qadriddin1-header {
+        padding: 0 20px;
+    }
+
+    .qadriddin1-menu {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 5%;
+        width: 90%;
+        padding: 25px;
+        background: #303954;
+        flex-direction: column;
+        z-index: 10;
+    }
+}
